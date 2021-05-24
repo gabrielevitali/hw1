@@ -15,7 +15,7 @@
         <header>
             <nav>
                 <a href="homepage.html"> Home </a>
-                <a href="check_in.php"> Check_in </a>
+                <a href="check_in.php"> Check-in </a>
                 <a href="infoVoli.html"> Info Voli </a>
                 <a href="acquista.html"> Acquista </a>
             </nav>
