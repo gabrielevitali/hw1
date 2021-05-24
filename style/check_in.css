@@ -1,0 +1,49 @@
+main {
+    min-height: 480px;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.mainLeft p, .mainRight p {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+.mainLeft {
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.mainLeft img {
+    height: 300px;
+    width: 450px;
+}
+
+.mainRight {
+    padding: 0px 30px;
+    margin-left: 0px;
+}
+
+input[name=check_in]  {
+    width: 300px;
+}
+
+.codiceFiscaleError, .flightIDError {
+    align-content: right;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: var(--font);
+    color: red;
+}
+
+.testoVerde {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: green;
+    margin-left: 40px;
+    text-align: justify;
+}

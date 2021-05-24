@@ -1,0 +1,51 @@
+.testoBlu{
+    margin-left: 60px;
+}
+
+.buy {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.buy p {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(6, 20, 61);
+}
+
+tdB {
+    border: 1px solid rgb(6, 20, 61);
+    text-align: center;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+
+form[name=buy] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 450px;
+    background-color: rgb(6, 20, 61);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: red;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 5px;
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 8px;
+    border: 2px solid var(--background);
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 2px 0px;
+}

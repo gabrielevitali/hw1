@@ -1,0 +1,144 @@
+:root {
+    --background: rgba(112, 128, 144, 0.164);
+    --text: rgb(6, 20, 61); /* #7e838d; */
+    --hl_text: rgb(6, 20, 61);
+    --foreground: white;
+    --font: 'Raleway', sans-serif;
+}
+
+body {
+    background: white;
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    margin: 0;
+}
+
+body, input, button, textarea {
+    font-family: var(--font);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 960px;
+    min-height: 420px;
+    margin: auto;
+    
+}
+
+.mainLeft, .mainRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainLeft {
+    border-right: solid var(--text) 3px;
+}
+
+.mainRight {
+    margin-left: 50px;
+}
+
+main p {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(6, 20, 61);
+    text-align: center;
+}
+
+.mainLeft p {
+    font-size: 21px;
+}
+
+.mainRight p {
+    font-size: 19px;
+}
+
+label {
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 370px;
+    margin-top: 10px;
+}
+
+input[type=text], input[type=password] {
+    background: var(--background);
+    width: 300px;
+    padding: 8px;
+    border: 2px solid var(--background);
+    font-size: 16px;
+    color: var(--text);
+    border-radius: 4px;
+    transition: border ease 0.3s;
+    margin: 8px 0px;
+}
+
+input[type=submit], button {
+    background: rgb(6, 20, 61);
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    color: var(--foreground);
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+input[name=login], input[name=signup]  {
+    width: 100%;
+}
+
+button[name=createAccount] {
+    width: 50%;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 2px solid var(--hl_text);
+    outline-width: 0;
+}
+
+.signup {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.signup p {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(6, 20, 61);
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageContainer img{
+    max-height: 300px;
+    width: 550px;
+}
+
+.usernameError, .emailError, .passwordError, .confirmPasswordError {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: var(--font);
+    color: red;
+}
