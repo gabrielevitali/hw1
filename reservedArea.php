@@ -6,7 +6,7 @@
     }
 
     $username = $_SESSION["_infinity_airways_username"];
-    echo "<p color='blue'> Benvenuto $username </p>";
+    //json_encode (array(username => $username))
 ?>
 
 <html>
@@ -14,6 +14,7 @@
         <meta charset="utf-8">
         <title> Infinity Airways </title>
         <link rel="stylesheet" href="style/homepage.css" />
+        <link rel="stylesheet" href="style/reservedArea.css" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> <!-- importo il font Raleway da Google Fonts -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -21,19 +22,24 @@
     <body>
         <header>
             <nav>
-                <a href="chiSiamo.html"> Chi Siamo </a>
-                <a href="destinazioni.html"> Destinazioni </a>
-                <a href="infoVoli.html"> Info Voli </a>
-                <a href="acquista.html"> Acquista </a>
+                <a href="homepage.html"> Home </a>
+                <a href="check_in.php"> Check-In </a>
+                <a href="infoVoli.php"> Info Voli </a>
+                <a href="acquista.php"> Acquista </a>
                 <a href="logout.php" class="button"> Logout </a>
             </nav>
             <a href="homepage.html" id="title"> <h1> INFINITY AIRWAYS </h1> </a>
             <div class="overlay"> </div>   
         </header>
 
-
-
-
+        <section id='welcome'>
+            <span class=testoBlu> Benvenuto <?php $_SESSION["_infinity_airways_username"]?> </span>
+        </section>
+        <section id = 'bookings'>
+        <span class=testoBlu> Le tue prenotazioni (espandi) </span>
+        <!-- Tabella costruita dinamicamente riempita con le informazioni sulle prenotazioni dell'utente,
+             se queste informazioni sono effettivamente presenti in database -->
+        </section>
 
         <!-- Apertura footer -->
         <footer>

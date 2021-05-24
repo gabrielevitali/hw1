@@ -15,9 +15,8 @@
         <header>
             <nav>
                 <a href="homepage.html"> Home </a>
-                <a href="chiSiamo.html"> Chi Siamo </a>
-                <a href="destinazioni.html"> Destinazioni </a>
-                <a href="acquista.html"> Acquista </a>
+                <a href="check_in.php"> Check-in </a>
+                <a href="acquista.php"> Acquista </a>
                 <a href="login_signup.php" class="button"> Area Riservata </a>
             </nav>
             <a href="homepage.html" id="title"> <h1> INFINITY AIRWAYS </h1> </a>
@@ -110,15 +109,15 @@
                 <!-- Privilege Club -->
                 <div class="footerItem">
                     <p> Privilege Club </p>
-                    <a href="clubServizi.html"> Servizi </a>
-                    <a href="clubAbbonamenti.html"> Abbonamenti </a>
-                    <a href="clubLounge.html"> Lounge </a>
-                    <a href="clubIscriviti.php"> Iscriviti al Club </a>
+                    <a href="login_signup.php"> Servizi </a>
+                    <a href="login_signup.php"> Abbonamenti </a>
+                    <a href="login_signup.php"> Lounge </a>
+                    <a href="login_signup.php"> Iscriviti al Club </a>
                 </div>
                 <!-- Link Utili -->
                 <div class="footerItem">
                     <p> Link Utili </p>
-                    <a href="checkOnline.html"> Check-in Online </a>
+                    <a href="check_in.php"> Check-in Online </a>
                     <a href="bagagli.html"> Info Bagagli </a>
                     <a href="login_signup.php"> Area Riservata </a>
                     <a href="contatti.html"> Contatti </a>

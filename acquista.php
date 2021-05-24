@@ -16,8 +16,7 @@
         <header>
             <nav>
                 <a href="homepage.html"> Home </a>
-                <a href="chiSiamo.html"> Chi Siamo </a>
-                <a href="destinazioni.html"> Destinazioni </a>
+                <a href="check_in.php"> Check-in </a>
                 <a href="acquista.html"> Acquista </a>
                 <a href="login_signup.php" class="button"> Area Riservata </a>
             </nav>
@@ -107,7 +106,7 @@
             <!-- Form di Registrazione -->
             <section class = 'buy'> <!-- Inizialmente nascosta -->
             <p class = 'testoBlu'> Compila il form e completa l'acquisto del volo da te selezionato! </p>
-            <form name='buy' action="buy.php" method='post' autocomplete="off">
+            <form name='buy' action="buyFlight.php" method='post' autocomplete="off">
                         <input type = 'text' name = 'codiceFiscale' placeholder = 'Inserisci Codice Fiscale (16 cifre)' <?php if(isset($_POST["codiceFiscale"])){echo "value=".$_POST["codiceFiscale"];} ?>>
                         <input type = 'text' name = 'nome' placeholder = 'Inserisci Nome' <?php if(isset($_POST["nome"])){echo "value=".$_POST["nome"];} ?>>
                         <input type = 'text' name = 'cognome' placeholder = 'Inserisci Cognome' <?php if(isset($_POST["Cognome"])){echo "value=".$_POST["Cognome"];} ?>>
@@ -145,15 +144,15 @@
                 <!-- Privilege Club -->
                 <div class="footerItem">
                     <p> Privilege Club </p>
-                    <a href="clubServizi.html"> Servizi </a>
-                    <a href="clubAbbonamenti.html"> Abbonamenti </a>
-                    <a href="clubLounge.html"> Lounge </a>
-                    <a href="clubIscriviti.php"> Iscriviti al Club </a>
+                    <a href="login_signup.php"> Servizi </a>
+                    <a href="login_signup.php"> Abbonamenti </a>
+                    <a href="login_signup.php"> Lounge </a>
+                    <a href="login_signup.php"> Iscriviti al Club </a>
                 </div>
                 <!-- Link Utili -->
                 <div class="footerItem">
                     <p> Link Utili </p>
-                    <a href="checkOnline.html"> Check-in Online </a>
+                    <a href="check_in.php"> Check-in Online </a>
                     <a href="bagagli.html"> Info Bagagli </a>
                     <a href="login_signup.php"> Area Riservata </a>
                     <a href="contatti.html"> Contatti </a>

@@ -15,8 +15,7 @@
         <header>
             <nav>
                 <a href="homepage.html"> Home </a>
-                <a href="chiSiamo.html"> Chi Siamo </a>
-                <a href="destinazioni.html"> Destinazioni </a>
+                <a href="check_in.php"> Check_in </a>
                 <a href="infoVoli.html"> Info Voli </a>
                 <a href="acquista.html"> Acquista </a>
             </nav>
@@ -77,17 +76,17 @@
                 <div class="footerItem">
                     <p> Dove voliamo? </p>
                     <a href="destinazioni.html"> Destinazioni </a>
-                    <a href="infoVoli.html"> Info Voli </a>
+                    <a href="infoVoli.php"> Info Voli </a>
                     <a href="promozioni.html"> Promozioni </a>
                     <a href="proposteViaggio.html"> Proposte di Viaggio </a>
                 </div>
                 <!-- Privilege Club -->
                 <div class="footerItem">
                     <p> Privilege Club </p>
-                    <a href="clubServizi.html"> Servizi </a>
-                    <a href="clubAbbonamenti.html"> Abbonamenti </a>
-                    <a href="clubLounge.html"> Lounge </a>
-                    <a href="clubIscriviti.html"> Iscriviti al Club </a>
+                    <a href="login_signup.php"> Servizi </a>
+                    <a href="login_signup.php"> Abbonamenti </a>
+                    <a href="login_signup.php"> Lounge </a>
+                    <a href="login_signup.php"> Iscriviti al Club </a>
                 </div>
                 <!-- Link Utili -->
                 <div class="footerItem">
